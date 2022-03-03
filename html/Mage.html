@@ -1,0 +1,2668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FlaskApp</title>
+    <style>
+    body{ margin:0 auto; }
+
+    .todo {
+            padding: 20px;
+            margin: 10px;
+            background-color: #eee;
+            visibility: hidden;
+        }
+        .odd {
+            background: #c1d2fa;
+        }
+        table, th, td {
+  border: 1px solid black;
+  padding: 5px;
+        }
+    .dotted{
+        border-style: outset;
+        border-radius: 20px;
+    }
+    .unchanted{
+        border-style: outset;
+        border-radius: 20px;
+    }
+table {
+  border-spacing: 0px;
+}
+    </style>
+    
+    <script>const whTooltips = {colorLinks: true, iconizeLinks: true, renameLinks: false, iconSize: 'small'};</script>
+    <script src="https://wow.zamimg.com/widgets/power.js"></script>
+</head>
+<body>
+
+
+
+    <p><a href="https://royalltea.github.io/chroniclegear/">SHOW ALL <a> or </a> SORT BY:
+        
+        <a href="https://royalltea.github.io/chroniclegear/Mage">Mage</a>
+        
+        <a href="https://royalltea.github.io/chroniclegear/Warlock">Warlock</a>
+        
+        <a href="https://royalltea.github.io/chroniclegear/Hunter">Hunter</a>
+        
+        <a href="https://royalltea.github.io/chroniclegear/Rogue">Rogue</a>
+        
+        <a href="https://royalltea.github.io/chroniclegear/Warrior">Warrior</a>
+        
+        <a href="https://royalltea.github.io/chroniclegear/Druid">Druid</a>
+        
+        <a href="https://royalltea.github.io/chroniclegear/Paladin">Paladin</a>
+        
+        <a href="https://royalltea.github.io/chroniclegear/Priest">Priest</a>
+        
+        </p>
+
+
+
+        <p><a href="https://royalltea.github.io/chroniclegear/">SHOW ALL <a> or </a> SORT BY:
+            
+            <a href="https://royalltea.github.io/chroniclegear/tank">tank</a>
+            
+            <a href="https://royalltea.github.io/chroniclegear/healers">healers</a>
+            
+            <a href="https://royalltea.github.io/chroniclegear/melee">melee</a>
+            
+            <a href="https://royalltea.github.io/chroniclegear/hunters">hunters</a>
+            
+            <a href="https://royalltea.github.io/chroniclegear/casters">casters</a>
+            
+            </p>
+
+            <!--
+<p><a href="/guildgearcheck.v1">SHOW ALL <a> or </a> SORT BY:
+
+<a href="/guildgearcheck.v1?classID=Mage">Mage</a>
+
+<a href="/guildgearcheck.v1?classID=Warlock">Warlock</a>
+
+<a href="/guildgearcheck.v1?classID=Hunter">Hunter</a>
+
+<a href="/guildgearcheck.v1?classID=Rogue">Rogue</a>
+
+<a href="/guildgearcheck.v1?classID=Warrior">Warrior</a>
+
+<a href="/guildgearcheck.v1?classID=Druid">Druid</a>
+
+<a href="/guildgearcheck.v1?classID=Paladin">Paladin</a>
+
+<a href="/guildgearcheck.v1?classID=Priest">Priest</a>
+
+</p>
+
+<a href="/guildgearcheck.v1">SHOW ALL <a> or </a> SORT BY:
+
+<a href="/guildgearcheck.v1?raid_role=tank">tank</a>
+
+<a href="/guildgearcheck.v1?raid_role=healers">healers</a>
+
+<a href="/guildgearcheck.v1?raid_role=melee">melee</a>
+
+<a href="/guildgearcheck.v1?raid_role=hunters">hunters</a>
+
+<a href="/guildgearcheck.v1?raid_role=casters">casters</a>
+
+</p>
+-->
+
+<table>
+    
+    
+    
+        <tr      class="odd"                ><td>Angertink</td>
+        <td>Mage </td>
+        
+        <td
+        class="unchanted" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=22267&domain=classic"></a>
+        </td>
+
+
+
+
+
+
+        
+        <td
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=22403&domain=classic"></a>
+        </td>
+
+
+
+
+
+
+
+
+
+        
+        <td
+        class="unchanted" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=11782&domain=classic"></a>
+        </td>
+    
+
+
+        
+
+
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=14152&domain=classic"></a>
+        </td>
+
+
+
+
+        <td
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=11662&domain=classic"></a>
+        </td>
+
+
+        
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=13170&domain=classic"></a>
+        </td>
+
+
+
+
+
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=11822&domain=classic"></a>
+        </td>    
+
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=22063&domain=classic"></a>
+        </td>  
+
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=10787&domain=classic"></a>
+        </td>  
+
+            
+
+
+
+
+
+
+
+
+            <td 
+            bgcolor="
+            Purple
+            
+            "
+            >
+            <a href="#" data-wowhead="item=22339&domain=classic"></a>
+            </td>
+
+
+            <td 
+            bgcolor="
+            Purple
+            
+            "
+            >
+            <a href="#" data-wowhead="item=12543&domain=classic"></a>
+            </td>
+
+            
+            <td 
+            bgcolor="
+            Yellow
+            
+            "
+            >
+            <a href="#" data-wowhead="item=18468&domain=classic"></a>
+            </td>
+
+
+            <td 
+            bgcolor="
+            Purple
+            
+            "
+            >
+            <a href="#" data-wowhead="item=13968&domain=classic"></a>
+            </td>
+
+
+
+
+
+            <td
+            class="unchanted" 
+            bgcolor="
+            Yellow
+            
+            "
+            >
+            <a href="#" data-wowhead="item=14103&domain=classic"></a>
+            </td>  
+    
+        
+        
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=13161&domain=classic"></a>
+        </td>            
+            
+
+
+        <td
+        class=" 
+        " 
+        bgcolor="
+        
+        
+        "
+        >
+        <a href="#" data-wowhead="item=0&domain=classic"></a>
+        </td>        
+        
+        <td
+        class="" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=19108&domain=classic"></a>
+        </td>            
+
+            
+
+
+
+
+            <td><a href="#" data-wowhead="item=5976&domain=classic"></a></td>
+
+        </tr>
+    
+    
+        <tr      class="even"                ><td>Cherokeex</td>
+        <td>Mage </td>
+        
+        <td
+        class="unchanted" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=22267&domain=classic"></a>
+        </td>
+
+
+
+
+
+
+        
+        <td
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=12103&domain=classic"></a>
+        </td>
+
+
+
+
+
+
+
+
+
+        
+        <td
+        class="unchanted" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=11782&domain=classic"></a>
+        </td>
+    
+
+
+        
+
+
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=14626&domain=classic"></a>
+        </td>
+
+
+
+
+        <td
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=11662&domain=classic"></a>
+        </td>
+
+
+        
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=13170&domain=classic"></a>
+        </td>
+
+
+
+
+
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=18102&domain=classic"></a>
+        </td>    
+
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=12626&domain=classic"></a>
+        </td>  
+
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=13253&domain=classic"></a>
+        </td>  
+
+            
+
+
+
+
+
+
+
+
+            <td 
+            bgcolor="
+            Yellow
+            
+            "
+            >
+            <a href="#" data-wowhead="item=13283&domain=classic"></a>
+            </td>
+
+
+            <td 
+            bgcolor="
+            Purple
+            
+            "
+            >
+            <a href="#" data-wowhead="item=12543&domain=classic"></a>
+            </td>
+
+            
+            <td 
+            bgcolor="
+            Purple
+            
+            "
+            >
+            <a href="#" data-wowhead="item=13968&domain=classic"></a>
+            </td>
+
+
+            <td 
+            bgcolor="
+            Purple
+            
+            "
+            >
+            <a href="#" data-wowhead="item=12930&domain=classic"></a>
+            </td>
+
+
+
+
+
+            <td
+            class="unchanted" 
+            bgcolor="
+            Yellow
+            
+            "
+            >
+            <a href="#" data-wowhead="item=11623&domain=classic"></a>
+            </td>  
+    
+        
+        
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=7714&domain=classic"></a>
+        </td>            
+            
+
+
+        <td
+        class="" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=22253&domain=classic"></a>
+        </td>        
+        
+        <td
+        class="" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=19108&domain=classic"></a>
+        </td>            
+
+            
+
+
+
+
+            <td><a href="#" data-wowhead="item=0&domain=classic"></a></td>
+
+        </tr>
+    
+    
+        <tr      class="odd"                ><td>Corinmage</td>
+        <td>Mage </td>
+        
+        <td
+        class="unchanted" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=22267&domain=classic"></a>
+        </td>
+
+
+
+
+
+
+        
+        <td
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=16309&domain=classic"></a>
+        </td>
+
+
+
+
+
+
+
+
+
+        
+        <td
+        class="unchanted" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=11782&domain=classic"></a>
+        </td>
+    
+
+
+        
+
+
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=14340&domain=classic"></a>
+        </td>
+
+
+
+
+        <td
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=22062&domain=classic"></a>
+        </td>
+
+
+        
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=13170&domain=classic"></a>
+        </td>
+
+
+
+
+
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=18102&domain=classic"></a>
+        </td>    
+
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=22063&domain=classic"></a>
+        </td>  
+
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=22066&domain=classic"></a>
+        </td>  
+
+            
+
+
+
+
+
+
+
+
+            <td 
+            bgcolor="
+            Purple
+            
+            "
+            >
+            <a href="#" data-wowhead="item=22339&domain=classic"></a>
+            </td>
+
+
+            <td 
+            bgcolor="
+            Purple
+            
+            "
+            >
+            <a href="#" data-wowhead="item=12543&domain=classic"></a>
+            </td>
+
+            
+            <td 
+            bgcolor="
+            Yellow
+            
+            "
+            >
+            <a href="#" data-wowhead="item=18468&domain=classic"></a>
+            </td>
+
+
+            <td 
+            bgcolor="
+            Yellow
+            
+            "
+            >
+            <a href="#" data-wowhead="item=12065&domain=classic"></a>
+            </td>
+
+
+
+
+
+            <td
+            class="unchanted" 
+            bgcolor="
+            Yellow
+            
+            "
+            >
+            <a href="#" data-wowhead="item=10249&domain=classic"></a>
+            </td>  
+    
+        
+        
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=18082&domain=classic"></a>
+        </td>            
+            
+
+
+        <td
+        class=" 
+        " 
+        bgcolor="
+        
+        
+        "
+        >
+        <a href="#" data-wowhead="item=0&domain=classic"></a>
+        </td>        
+        
+        <td
+        class="" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=13938&domain=classic"></a>
+        </td>            
+
+            
+
+
+
+
+            <td><a href="#" data-wowhead="item=0&domain=classic"></a></td>
+
+        </tr>
+    
+    
+        <tr      class="even"                ><td>Gusgus</td>
+        <td>Mage </td>
+        
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=22225&domain=classic"></a>
+        </td>
+
+
+
+
+
+
+        
+        <td
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=20037&domain=classic"></a>
+        </td>
+
+
+
+
+
+
+
+
+
+        
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=18681&domain=classic"></a>
+        </td>
+    
+
+
+        
+
+
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=14152&domain=classic"></a>
+        </td>
+
+
+
+
+        <td
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=16802&domain=classic"></a>
+        </td>
+
+
+        
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=16687&domain=classic"></a>
+        </td>
+
+
+
+
+
+
+        <td
+        class="" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=23291&domain=classic"></a>
+        </td>    
+
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=16799&domain=classic"></a>
+        </td>  
+
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=23290&domain=classic"></a>
+        </td>  
+
+            
+
+
+
+
+
+
+
+
+            <td 
+            bgcolor="
+            Purple
+            
+            "
+            >
+            <a href="#" data-wowhead="item=13001&domain=classic"></a>
+            </td>
+
+
+            <td 
+            bgcolor="
+            Purple
+            
+            "
+            >
+            <a href="#" data-wowhead="item=942&domain=classic"></a>
+            </td>
+
+            
+            <td 
+            bgcolor="
+            Purple
+            
+            "
+            >
+            <a href="#" data-wowhead="item=22268&domain=classic"></a>
+            </td>
+
+
+            <td 
+            bgcolor="
+            Yellow
+            
+            "
+            >
+            <a href="#" data-wowhead="item=18859&domain=classic"></a>
+            </td>
+
+
+
+
+
+            <td
+            class="unchanted" 
+            bgcolor="
+            Yellow
+            
+            "
+            >
+            <a href="#" data-wowhead="item=13376&domain=classic"></a>
+            </td>  
+    
+        
+        
+        <td
+        class="" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=18534&domain=classic"></a>
+        </td>            
+            
+
+
+        <td
+        class=" 
+        " 
+        bgcolor="
+        
+        
+        "
+        >
+        <a href="#" data-wowhead="item=0&domain=classic"></a>
+        </td>        
+        
+        <td
+        class="" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=19108&domain=classic"></a>
+        </td>            
+
+            
+
+
+
+
+            <td><a href="#" data-wowhead="item=0&domain=classic"></a></td>
+
+        </tr>
+    
+    
+        <tr      class="odd"                ><td>Lazytango</td>
+        <td>Mage </td>
+        
+        <td
+        class="unchanted" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=22267&domain=classic"></a>
+        </td>
+
+
+
+
+
+
+        
+        <td
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=17109&domain=classic"></a>
+        </td>
+
+
+
+
+
+
+
+
+
+        
+        <td
+        class="unchanted" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=11782&domain=classic"></a>
+        </td>
+    
+
+
+        
+
+
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=14626&domain=classic"></a>
+        </td>
+
+
+
+
+        <td
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=11662&domain=classic"></a>
+        </td>
+
+
+        
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=13170&domain=classic"></a>
+        </td>
+
+
+
+
+
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=11822&domain=classic"></a>
+        </td>    
+
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=16703&domain=classic"></a>
+        </td>  
+
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=22304&domain=classic"></a>
+        </td>  
+
+            
+
+
+
+
+
+
+
+
+            <td 
+            bgcolor="
+            Yellow
+            
+            "
+            >
+            <a href="#" data-wowhead="item=22433&domain=classic"></a>
+            </td>
+
+
+            <td 
+            bgcolor="
+            Yellow
+            
+            "
+            >
+            <a href="#" data-wowhead="item=22257&domain=classic"></a>
+            </td>
+
+            
+            <td 
+            bgcolor="
+            Purple
+            
+            "
+            >
+            <a href="#" data-wowhead="item=13968&domain=classic"></a>
+            </td>
+
+
+            <td 
+            bgcolor="
+            Purple
+            
+            "
+            >
+            <a href="#" data-wowhead="item=11832&domain=classic"></a>
+            </td>
+
+
+
+
+
+            <td
+            class="unchanted" 
+            bgcolor="
+            Yellow
+            
+            "
+            >
+            <a href="#" data-wowhead="item=11623&domain=classic"></a>
+            </td>  
+    
+        
+        
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=18396&domain=classic"></a>
+        </td>            
+            
+
+
+        <td
+        class="" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=22329&domain=classic"></a>
+        </td>        
+        
+        <td
+        class="" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=22254&domain=classic"></a>
+        </td>            
+
+            
+
+
+
+
+            <td><a href="#" data-wowhead="item=0&domain=classic"></a></td>
+
+        </tr>
+    
+    
+        <tr      class="even"                ><td>Meimeileilei</td>
+        <td>Mage </td>
+        
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=10041&domain=classic"></a>
+        </td>
+
+
+
+
+
+
+        
+        <td
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=20037&domain=classic"></a>
+        </td>
+
+
+
+
+
+
+
+
+
+        
+        <td
+        class="unchanted" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=11782&domain=classic"></a>
+        </td>
+    
+
+
+        
+
+
+
+        <td
+        class="" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=14152&domain=classic"></a>
+        </td>
+
+
+
+
+        <td
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=11662&domain=classic"></a>
+        </td>
+
+
+        
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=13871&domain=classic"></a>
+        </td>
+
+
+
+
+
+
+        <td
+        class="" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=11822&domain=classic"></a>
+        </td>    
+
+
+        <td
+        class="" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=7437&domain=classic"></a>
+        </td>  
+
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=22256&domain=classic"></a>
+        </td>  
+
+            
+
+
+
+
+
+
+
+
+            <td 
+            bgcolor="
+            Yellow
+            
+            "
+            >
+            <a href="#" data-wowhead="item=18103&domain=classic"></a>
+            </td>
+
+
+            <td 
+            bgcolor="
+            Yellow
+            
+            "
+            >
+            <a href="#" data-wowhead="item=17045&domain=classic"></a>
+            </td>
+
+            
+            <td 
+            bgcolor="
+            Purple
+            
+            "
+            >
+            <a href="#" data-wowhead="item=12930&domain=classic"></a>
+            </td>
+
+
+            <td 
+            bgcolor="
+            Purple
+            
+            "
+            >
+            <a href="#" data-wowhead="item=11832&domain=classic"></a>
+            </td>
+
+
+
+
+
+            <td
+            class="" 
+            bgcolor="
+            Yellow
+            
+            "
+            >
+            <a href="#" data-wowhead="item=11623&domain=classic"></a>
+            </td>  
+    
+        
+        
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=11922&domain=classic"></a>
+        </td>            
+            
+
+
+        <td
+        class="" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=22253&domain=classic"></a>
+        </td>        
+        
+        <td
+        class="" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=19108&domain=classic"></a>
+        </td>            
+
+            
+
+
+
+
+            <td><a href="#" data-wowhead="item=0&domain=classic"></a></td>
+
+        </tr>
+    
+    
+        <tr      class="odd"                ><td>Monalfie</td>
+        <td>Mage </td>
+        
+        <td
+        class="unchanted" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=22267&domain=classic"></a>
+        </td>
+
+
+
+
+
+
+        
+        <td
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=22403&domain=classic"></a>
+        </td>
+
+
+
+
+
+
+
+
+
+        
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=18720&domain=classic"></a>
+        </td>
+    
+
+
+        
+
+
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=16690&domain=classic"></a>
+        </td>
+
+
+
+
+        <td
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=16696&domain=classic"></a>
+        </td>
+
+
+        
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=13170&domain=classic"></a>
+        </td>
+
+
+
+
+
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=14631&domain=classic"></a>
+        </td>    
+
+
+        <td
+        class="" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=16697&domain=classic"></a>
+        </td>  
+
+
+        <td
+        class="" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=16692&domain=classic"></a>
+        </td>  
+
+            
+
+
+
+
+
+
+
+
+            <td 
+            bgcolor="
+            Yellow
+            
+            "
+            >
+            <a href="#" data-wowhead="item=18103&domain=classic"></a>
+            </td>
+
+
+            <td 
+            bgcolor="
+            Purple
+            
+            "
+            >
+            <a href="#" data-wowhead="item=13001&domain=classic"></a>
+            </td>
+
+            
+            <td 
+            bgcolor="
+            Yellow
+            
+            "
+            >
+            <a href="#" data-wowhead="item=18859&domain=classic"></a>
+            </td>
+
+
+            <td 
+            bgcolor="
+            Purple
+            
+            "
+            >
+            <a href="#" data-wowhead="item=13968&domain=classic"></a>
+            </td>
+
+
+
+
+
+            <td
+            class="unchanted" 
+            bgcolor="
+            Yellow
+            
+            "
+            >
+            <a href="#" data-wowhead="item=13376&domain=classic"></a>
+            </td>  
+    
+        
+        
+        <td
+        class="unchanted" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=13964&domain=classic"></a>
+        </td>            
+            
+
+
+        <td
+        class="" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=22253&domain=classic"></a>
+        </td>        
+        
+        <td
+        class="" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=22408&domain=classic"></a>
+        </td>            
+
+            
+
+
+
+
+            <td><a href="#" data-wowhead="item=0&domain=classic"></a></td>
+
+        </tr>
+    
+    
+        <tr      class="even"                ><td>Nubnub</td>
+        <td>Mage </td>
+        
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=10041&domain=classic"></a>
+        </td>
+
+
+
+
+
+
+        
+        <td
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=20037&domain=classic"></a>
+        </td>
+
+
+
+
+
+
+
+
+
+        
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=22412&domain=classic"></a>
+        </td>
+    
+
+
+        
+
+
+
+        <td
+        class="" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=11924&domain=classic"></a>
+        </td>
+
+
+
+
+        <td
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=11662&domain=classic"></a>
+        </td>
+
+
+        
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=16687&domain=classic"></a>
+        </td>
+
+
+
+
+
+
+        <td
+        class="" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=11822&domain=classic"></a>
+        </td>    
+
+
+        <td
+        class="" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=16703&domain=classic"></a>
+        </td>  
+
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=22256&domain=classic"></a>
+        </td>  
+
+            
+
+
+
+
+
+
+
+
+            <td 
+            bgcolor="
+            Yellow
+            
+            "
+            >
+            <a href="#" data-wowhead="item=13217&domain=classic"></a>
+            </td>
+
+
+            <td 
+            bgcolor="
+            Purple
+            
+            "
+            >
+            <a href="#" data-wowhead="item=12543&domain=classic"></a>
+            </td>
+
+            
+            <td 
+            bgcolor="
+            Yellow
+            
+            "
+            >
+            <a href="#" data-wowhead="item=17774&domain=classic"></a>
+            </td>
+
+
+            <td 
+            bgcolor="
+            Purple
+            
+            "
+            >
+            <a href="#" data-wowhead="item=13968&domain=classic"></a>
+            </td>
+
+
+
+
+
+            <td
+            class="" 
+            bgcolor="
+            Yellow
+            
+            "
+            >
+            <a href="#" data-wowhead="item=13376&domain=classic"></a>
+            </td>  
+    
+        
+        
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=11784&domain=classic"></a>
+        </td>            
+            
+
+
+        <td
+        class="" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=22253&domain=classic"></a>
+        </td>        
+        
+        <td
+        class="" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=19108&domain=classic"></a>
+        </td>            
+
+            
+
+
+
+
+            <td><a href="#" data-wowhead="item=0&domain=classic"></a></td>
+
+        </tr>
+    
+    
+        <tr      class="odd"                ><td>Setriksdottv</td>
+        <td>Mage </td>
+        
+        <td
+        class="" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=16914&domain=classic"></a>
+        </td>
+
+
+
+
+
+
+        
+        <td
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=20037&domain=classic"></a>
+        </td>
+
+
+
+
+
+
+
+
+
+        
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=11624&domain=classic"></a>
+        </td>
+    
+
+
+        
+
+
+
+        <td
+        class="" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=14340&domain=classic"></a>
+        </td>
+
+
+
+
+        <td
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=11662&domain=classic"></a>
+        </td>
+
+
+        
+
+        <td
+        class="" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=12965&domain=classic"></a>
+        </td>
+
+
+
+
+
+
+        <td
+        class="" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=22231&domain=classic"></a>
+        </td>    
+
+
+        <td
+        class="" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=22063&domain=classic"></a>
+        </td>  
+
+
+        <td
+        class="" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=22066&domain=classic"></a>
+        </td>  
+
+            
+
+
+
+
+
+
+
+
+            <td 
+            bgcolor="
+            Yellow
+            
+            "
+            >
+            <a href="#" data-wowhead="item=7553&domain=classic"></a>
+            </td>
+
+
+            <td 
+            bgcolor="
+            Purple
+            
+            "
+            >
+            <a href="#" data-wowhead="item=942&domain=classic"></a>
+            </td>
+
+            
+            <td 
+            bgcolor="
+            Purple
+            
+            "
+            >
+            <a href="#" data-wowhead="item=13968&domain=classic"></a>
+            </td>
+
+
+            <td 
+            bgcolor="
+            Purple
+            
+            "
+            >
+            <a href="#" data-wowhead="item=12930&domain=classic"></a>
+            </td>
+
+
+
+
+
+            <td
+            class="unchanted" 
+            bgcolor="
+            Yellow
+            
+            "
+            >
+            <a href="#" data-wowhead="item=15427&domain=classic"></a>
+            </td>  
+    
+        
+        
+        <td
+        class="" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=9517&domain=classic"></a>
+        </td>            
+            
+
+
+        <td
+        class=" 
+        " 
+        bgcolor="
+        
+        
+        "
+        >
+        <a href="#" data-wowhead="item=0&domain=classic"></a>
+        </td>        
+        
+        <td
+        class="" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=7514&domain=classic"></a>
+        </td>            
+
+            
+
+
+
+
+            <td><a href="#" data-wowhead="item=15196&domain=classic"></a></td>
+
+        </tr>
+    
+    
+        <tr      class="even"                ><td>Thatwasme</td>
+        <td>Mage </td>
+        
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=17715&domain=classic"></a>
+        </td>
+
+
+
+
+
+
+        
+        <td
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=20037&domain=classic"></a>
+        </td>
+
+
+
+
+
+
+
+
+
+        
+        <td
+        class="unchanted" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=11782&domain=classic"></a>
+        </td>
+    
+
+
+        
+
+
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=11924&domain=classic"></a>
+        </td>
+
+
+
+
+        <td
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=16685&domain=classic"></a>
+        </td>
+
+
+        
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=10807&domain=classic"></a>
+        </td>
+
+
+
+
+
+
+        <td
+        class="" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=18507&domain=classic"></a>
+        </td>    
+
+
+        <td
+        class="" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=12626&domain=classic"></a>
+        </td>  
+
+
+        <td
+        class="" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=16684&domain=classic"></a>
+        </td>  
+
+            
+
+
+
+
+
+
+
+
+            <td 
+            bgcolor="
+            Yellow
+            
+            "
+            >
+            <a href="#" data-wowhead="item=18103&domain=classic"></a>
+            </td>
+
+
+            <td 
+            bgcolor="
+            Yellow
+            
+            "
+            >
+            <a href="#" data-wowhead="item=11824&domain=classic"></a>
+            </td>
+
+            
+            <td 
+            bgcolor="
+            Purple
+            
+            "
+            >
+            <a href="#" data-wowhead="item=13968&domain=classic"></a>
+            </td>
+
+
+            <td 
+            bgcolor="
+            Purple
+            
+            "
+            >
+            <a href="#" data-wowhead="item=12930&domain=classic"></a>
+            </td>
+
+
+
+
+
+            <td
+            class="" 
+            bgcolor="
+            Yellow
+            
+            "
+            >
+            <a href="#" data-wowhead="item=11623&domain=classic"></a>
+            </td>  
+    
+        
+        
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=11922&domain=classic"></a>
+        </td>            
+            
+
+
+        <td
+        class="" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=22253&domain=classic"></a>
+        </td>        
+        
+        <td
+        class="" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=7514&domain=classic"></a>
+        </td>            
+
+            
+
+
+
+
+            <td><a href="#" data-wowhead="item=15196&domain=classic"></a></td>
+
+        </tr>
+    
+    
+        <tr      class="odd"                ><td>Wednesday</td>
+        <td>Mage </td>
+        
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=11839&domain=classic"></a>
+        </td>
+
+
+
+
+
+
+        
+        <td
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=20037&domain=classic"></a>
+        </td>
+
+
+
+
+
+
+
+
+
+        
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=15812&domain=classic"></a>
+        </td>
+    
+
+
+        
+
+
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=11924&domain=classic"></a>
+        </td>
+
+
+
+
+        <td
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=13956&domain=classic"></a>
+        </td>
+
+
+        
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=13170&domain=classic"></a>
+        </td>
+
+
+
+
+
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=20641&domain=classic"></a>
+        </td>    
+
+
+        <td
+        class="" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=12626&domain=classic"></a>
+        </td>  
+
+
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=18693&domain=classic"></a>
+        </td>  
+
+            
+
+
+
+
+
+
+
+
+            <td 
+            bgcolor="
+            Purple
+            
+            "
+            >
+            <a href="#" data-wowhead="item=12543&domain=classic"></a>
+            </td>
+
+
+            <td 
+            bgcolor="
+            Yellow
+            
+            "
+            >
+            <a href="#" data-wowhead="item=2933&domain=classic"></a>
+            </td>
+
+            
+            <td 
+            bgcolor="
+            Yellow
+            
+            "
+            >
+            <a href="#" data-wowhead="item=18468&domain=classic"></a>
+            </td>
+
+
+            <td 
+            bgcolor="
+            Purple
+            
+            "
+            >
+            <a href="#" data-wowhead="item=11832&domain=classic"></a>
+            </td>
+
+
+
+
+
+            <td
+            class="unchanted" 
+            bgcolor="
+            Yellow
+            
+            "
+            >
+            <a href="#" data-wowhead="item=10174&domain=classic"></a>
+            </td>  
+    
+        
+        
+        <td
+        class="unchanted" 
+        bgcolor="
+        Yellow
+        
+        "
+        >
+        <a href="#" data-wowhead="item=13161&domain=classic"></a>
+        </td>            
+            
+
+
+        <td
+        class=" 
+        " 
+        bgcolor="
+        
+        
+        "
+        >
+        <a href="#" data-wowhead="item=0&domain=classic"></a>
+        </td>        
+        
+        <td
+        class="" 
+        bgcolor="
+        Purple
+        
+        "
+        >
+        <a href="#" data-wowhead="item=13938&domain=classic"></a>
+        </td>            
+
+            
+
+
+
+
+            <td><a href="#" data-wowhead="item=0&domain=classic"></a></td>
+
+        </tr>
+    
+    
+</table>
+
+
+</body>
+</html>
