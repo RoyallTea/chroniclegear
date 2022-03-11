@@ -8,7 +8,74 @@
     <!-- Bootstrap CSS -->
     <link href="./Gear Check_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     
-    
+    <style>
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    padding-bottom: 100px;
+}
+
+
+
+
+    /*.todo {
+            padding: 20px;
+            margin: 10px;
+            background-color: #eee;
+            visibility: hidden;
+        }
+        .odd {
+            background: #c1d2fa;
+        }*/
+        table, th, td {
+  
+  border: 1px solid black;
+  padding: 5px;
+        }
+    .dotted{
+        border-style: outset;
+        border-radius: 20px;
+    }
+    .unchanted{
+        border-style: outset;
+        border-radius: 20px;
+        outline : 3px solid red;
+    }
+    .nonbischanted{
+        border-style: outset;
+        border-radius: 10px;
+    }
+table {
+  border-spacing: 0px;
+}
+
+.players {
+   /*overflow-y:scroll;
+   height:400px;*/
+   display:block;
+   width:1100px;
+   
+} 
+
+.legend {
+   
+   display:block;
+   width:1100px;
+   
+}
+
+
+    </style>
     
 
     
@@ -37,32 +104,7 @@
 
 
     <header>
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-          <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
-              <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarExample01">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item active">
-                  <a class="nav-link" aria-current="page" href="http://172.23.88.161:5000/guildgearcheck.pyclass.v1/#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="http://172.23.88.161:5000/guildgearcheck.pyclass.v1/#">Features</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="http://172.23.88.161:5000/guildgearcheck.pyclass.v1/#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="http://172.23.88.161:5000/guildgearcheck.pyclass.v1/#">About</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-        <!-- Navbar -->
-      
+
         <!-- Jumbotron -->
         <div class="p-5 text-center bg-light" style="margin-top: 58px;">
           <h1 class="mb-3">Raid Group Gear and Enchant Check</h1>
@@ -79,30 +121,6 @@
 
 
 
-
-
-
-
-
-
-      <input id="toggleVisibilityButton" type="button" value="Button1">
-      <table id="displaytable" style="display:none" width="100%" cellpadding="1" cellspacing="0" border="3">
-          <tbody><tr align="center">
-                  <td class="lbl">column1</td>
-                  <td class="lbl">column2</td>
-                  <td class="lbl">column3</td>
-                  </tr>
-          <tr>
-                  <td align="center">1</td>
-                  <td align="center">2</td>
-                   <td align="center">33</td>
-                  </tr>
-                  <tr>
-                  <td align="center">4</td>
-                  <td align="center">5</td>
-                 <td align="center">6</td>
-                  </tr>
-      </tbody></table> 
 
 
 
@@ -136,7 +154,7 @@
         <tr class="odd"><td>Angertink</td>
         
         <td>0 HIT</td>
-        <td>5 SP HIT</td>
+        <td>4 SP HIT</td>
         
 
         
@@ -153,11 +171,11 @@
         
 
         <td class="" bgcolor="
-        Purple
+        Yellow
         
         ">
         
-        <a href="https://classic.wowhead.com/item=22403&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_jewelry_necklace_10.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=19923&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_jewelry_necklace_03.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -278,18 +296,18 @@
         
         ">
         
-        <a href="https://classic.wowhead.com/item=18820&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q4"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_misc_stonetablet_11.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=19950&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q4"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_jewelry_necklace_13.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
         
 
         <td class="" bgcolor="
-        Purple
+        Yellow
         
         ">
         
-        <a href="https://classic.wowhead.com/item=13968&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_jewelry_talisman_08.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=18820&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q4"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_misc_stonetablet_11.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -311,7 +329,7 @@
         
         ">
         
-        <a href="https://classic.wowhead.com/item=13161&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_staff_29.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=6367&amp;domain=classic" rel="ench=0" data-wh-icon-added="true" class="q1"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_fishingpole_01.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -329,11 +347,11 @@
         
 
         <td class="" bgcolor="
-        Yellow
+        Purple
         
         ">
         
-        <a href="https://classic.wowhead.com/item=19927&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q4"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_wand_06.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=19108&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_wand_01.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -355,17 +373,17 @@
         </tr><tr class="even"><td>Angryman</td>
         
         <td>0 HIT</td>
-        <td>2 SP HIT</td>
+        <td>3 SP HIT</td>
         
 
         
 
         <td class="unchanted" bgcolor="
-        Blue
+        Purple
         
         ">
         
-        <a href="https://classic.wowhead.com/item=18727&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_helmet_51.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=22267&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_helmet_62.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -416,44 +434,44 @@
         
 
         <td class="" bgcolor="
-        Blue
+        Yellow
         
         ">
         
-        <a href="https://classic.wowhead.com/item=13956&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_belt_12.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=16802&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q4"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_belt_30.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
         
 
         <td class="unchanted" bgcolor="
-        Blue
+        Yellow
         
         ">
         
-        <a href="https://classic.wowhead.com/item=13871&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q2"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_pants_08.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=19683&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_pants_cloth_14.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
         
 
-        <td class="" bgcolor="
+        <td class="unchanted" bgcolor="
         Yellow
         
         ">
         
-        <a href="https://classic.wowhead.com/item=10095&amp;domain=classic" rel="ench=464" data-wh-icon-added="true" class="q2"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_boots_09.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=19897&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q4"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_boots_cloth_09.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
         
 
-        <td class="" bgcolor="
+        <td class="unchanted" bgcolor="
         Yellow
         
         ">
         
-        <a href="https://classic.wowhead.com/item=16683&amp;domain=classic" rel="ench=1884" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_jewelry_ring_23.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=16799&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q4"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_belt_29.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -497,7 +515,7 @@
         
         ">
         
-        <a href="https://classic.wowhead.com/item=17904&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q4"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_jewelry_stormpiketrinket_05.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=19290&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q4"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_misc_ticket_tarot_twistingnether_01.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -508,7 +526,7 @@
         
         ">
         
-        <a href="https://classic.wowhead.com/item=11122&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q2"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_misc_food_54.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=18468&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_jewelry_talisman_10.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -530,7 +548,7 @@
         
         ">
         
-        <a href="https://classic.wowhead.com/item=18396&amp;domain=classic" rel="ench=0" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_weapon_shortblade_22.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=18396&amp;domain=classic" rel="ench=1894" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_weapon_shortblade_22.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -563,7 +581,7 @@
         
         ">
         
-        <a href="https://classic.wowhead.com/item=23192&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q1"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_misc_cape_18.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=15198&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q1"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_misc_tabardpvp_03.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -1260,10 +1278,229 @@
         
     
         
-        </tr><tr class="even"><td>Nubnub</td>
+        </tr><tr class="even"><td>Ninedots</td>
         
         <td>0 HIT</td>
-        <td>1 SP HIT</td>
+        <td>2 SP HIT</td>
+        
+
+        
+
+        <td class="unchanted" bgcolor="
+        Purple
+        
+        ">
+        
+        <a href="https://classic.wowhead.com/item=22267&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_helmet_62.jpg&quot;);"></ins><del></del></span></a>
+        </td>
+
+
+        
+
+        <td class="" bgcolor="
+        Yellow
+        
+        ">
+        
+        <a href="https://classic.wowhead.com/item=12929&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_jewelry_necklace_05.jpg&quot;);"></ins><del></del></span></a>
+        </td>
+
+
+        
+
+        <td class="unchanted" bgcolor="
+        Yellow
+        
+        ">
+        
+        <a href="https://classic.wowhead.com/item=22412&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_shoulder_02.jpg&quot;);"></ins><del></del></span></a>
+        </td>
+
+
+        
+
+        <td class="" bgcolor="
+        Purple
+        
+        ">
+        
+        <a href="https://classic.wowhead.com/item=6096&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q1"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_shirt_01.jpg&quot;);"></ins><del></del></span></a>
+        </td>
+
+
+        
+
+        <td class="unchanted" bgcolor="
+        Blue
+        
+        ">
+        
+        <a href="https://classic.wowhead.com/item=14340&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_chest_cloth_46.jpg&quot;);"></ins><del></del></span></a>
+        </td>
+
+
+        
+
+        <td class="" bgcolor="
+        Purple
+        
+        ">
+        
+        <a href="https://classic.wowhead.com/item=11662&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_belt_29.jpg&quot;);"></ins><del></del></span></a>
+        </td>
+
+
+        
+
+        <td class="unchanted" bgcolor="
+        Yellow
+        
+        ">
+        
+        <a href="https://classic.wowhead.com/item=10807&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_pants_11.jpg&quot;);"></ins><del></del></span></a>
+        </td>
+
+
+        
+
+        <td class="unchanted" bgcolor="
+        Blue
+        
+        ">
+        
+        <a href="https://classic.wowhead.com/item=18102&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_boots_05.jpg&quot;);"></ins><del></del></span></a>
+        </td>
+
+
+        
+
+        <td class="unchanted" bgcolor="
+        Yellow
+        
+        ">
+        
+        <a href="https://classic.wowhead.com/item=11917&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q2"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_bracer_07.jpg&quot;);"></ins><del></del></span></a>
+        </td>
+
+
+        
+
+        <td class="unchanted" bgcolor="
+        Yellow
+        
+        ">
+        
+        <a href="https://classic.wowhead.com/item=18693&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_gauntlets_16.jpg&quot;);"></ins><del></del></span></a>
+        </td>
+
+
+        
+
+        <td class="" bgcolor="
+        Yellow
+        
+        ">
+        
+        <a href="https://classic.wowhead.com/item=22433&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_jewelry_ring_16.jpg&quot;);"></ins><del></del></span></a>
+        </td>
+
+
+        
+
+        <td class="" bgcolor="
+        Yellow
+        
+        ">
+        
+        <a href="https://classic.wowhead.com/item=17768&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q2"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_jewelry_ring_18.jpg&quot;);"></ins><del></del></span></a>
+        </td>
+
+
+        
+
+        <td class="" bgcolor="
+        Purple
+        
+        ">
+        
+        <a href="https://classic.wowhead.com/item=13968&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_jewelry_talisman_08.jpg&quot;);"></ins><del></del></span></a>
+        </td>
+
+
+        
+
+        <td class="" bgcolor="
+        Blue
+        
+        ">
+        
+        <a href="https://classic.wowhead.com/item=11832&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_jewelry_amulet_07.jpg&quot;);"></ins><del></del></span></a>
+        </td>
+
+
+        
+
+        <td class="unchanted" bgcolor="
+        Yellow
+        
+        ">
+        
+        <a href="https://classic.wowhead.com/item=18496&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_misc_cape_02.jpg&quot;);"></ins><del></del></span></a>
+        </td>
+
+
+        
+
+        <td class="unchanted" bgcolor="
+        Yellow
+        
+        ">
+        
+        <a href="https://classic.wowhead.com/item=7713&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_wand_04.jpg&quot;);"></ins><del></del></span></a>
+        </td>
+
+
+        
+
+        <td class="" bgcolor="
+        Purple
+        
+        ">
+        
+        <a href="https://classic.wowhead.com/item=0&amp;domain=classic" rel="ench=" class="qundefined"></a>
+        </td>
+
+
+        
+
+        <td class="" bgcolor="
+        Yellow
+        
+        ">
+        
+        <a href="https://classic.wowhead.com/item=19861&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q4"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_wand_09.jpg&quot;);"></ins><del></del></span></a>
+        </td>
+
+
+        
+
+        <td class="" bgcolor="
+        Purple
+        
+        ">
+        
+        <a href="https://classic.wowhead.com/item=23192&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q1"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_misc_cape_18.jpg&quot;);"></ins><del></del></span></a>
+        </td>
+
+
+        
+        
+    
+        
+        </tr><tr class="odd"><td>Nubnub</td>
+        
+        <td>0 HIT</td>
+        <td>5 SP HIT</td>
         
 
         
@@ -1280,11 +1517,11 @@
         
 
         <td class="" bgcolor="
-        Blue
+        Purple
         
         ">
         
-        <a href="https://classic.wowhead.com/item=20037&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_misc_gem_topaz_01.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=22403&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_jewelry_necklace_10.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -1312,12 +1549,12 @@
 
         
 
-        <td class="unchanted" bgcolor="
+        <td class="" bgcolor="
         Yellow
         
         ">
         
-        <a href="https://classic.wowhead.com/item=11924&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_chest_cloth_16.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=11924&amp;domain=classic" rel="ench=1892" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_chest_cloth_16.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -1339,18 +1576,7 @@
         
         ">
         
-        <a href="https://classic.wowhead.com/item=16687&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_pants_06.jpg&quot;);"></ins><del></del></span></a>
-        </td>
-
-
-        
-
-        <td class="unchanted" bgcolor="
-        Blue
-        
-        ">
-        
-        <a href="https://classic.wowhead.com/item=11822&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_boots_05.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=12965&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_pants_06.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -1361,7 +1587,18 @@
         
         ">
         
-        <a href="https://classic.wowhead.com/item=16703&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_bracer_13.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=19897&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q4"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_boots_cloth_09.jpg&quot;);"></ins><del></del></span></a>
+        </td>
+
+
+        
+
+        <td class="" bgcolor="
+        Yellow
+        
+        ">
+        
+        <a href="https://classic.wowhead.com/item=16703&amp;domain=classic" rel="ench=723" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_bracer_13.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -1372,7 +1609,7 @@
         
         ">
         
-        <a href="https://classic.wowhead.com/item=22256&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_gauntlets_17.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=19929&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_gauntlets_16.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -1427,7 +1664,7 @@
         
         ">
         
-        <a href="https://classic.wowhead.com/item=13376&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_misc_cape_14.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=19857&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q4"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_misc_cape_22.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -1438,7 +1675,7 @@
         
         ">
         
-        <a href="https://classic.wowhead.com/item=11784&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_sword_23.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=19964&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_sword_37.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -1449,7 +1686,7 @@
         
         ">
         
-        <a href="https://classic.wowhead.com/item=22253&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_misc_book_06.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=19891&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q4"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_misc_bag_10_black.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -1485,7 +1722,7 @@
         
     
         
-        </tr><tr class="even"><td>Setriksdottv</td>
+        </tr><tr class="odd"><td>Setriksdottv</td>
         
         <td>0 HIT</td>
         <td>3 SP HIT</td>
@@ -1718,7 +1955,7 @@
         
     
         
-        </tr><tr class="even"><td>Wednesday</td>
+        </tr><tr class="odd"><td>Wednesday</td>
         
         <td>0 HIT</td>
         <td>1 SP HIT</td>
@@ -2269,11 +2506,11 @@
         
 
         <td class="" bgcolor="
-        Purple
+        Yellow
         
         ">
         
-        <a href="https://classic.wowhead.com/item=11662&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_belt_29.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=22716&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_belt_01.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -2291,11 +2528,11 @@
         
 
         <td class="" bgcolor="
-        Purple
+        Yellow
         
         ">
         
-        <a href="https://classic.wowhead.com/item=18735&amp;domain=classic" rel="ench=911" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_boots_03.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=19684&amp;domain=classic" rel="ench=911" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_boots_cloth_02.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -2421,6 +2658,8 @@
 
 
         
+        
+    
         
     
         
@@ -2971,7 +3210,9 @@
         
     
         
-        </tr><tr class="odd"><td>Snipedog</td>
+    
+        
+        </tr><tr class="even"><td>Snipedog</td>
         
         <td>5 HIT</td>
         <td>0 SP HIT</td>
@@ -3196,7 +3437,7 @@
         
     
         
-        </tr><tr class="odd"><td>Valle</td>
+        </tr><tr class="even"><td>Valle</td>
         
         <td>9 HIT</td>
         <td>0 SP HIT</td>
@@ -3315,22 +3556,22 @@
         
 
         <td class="" bgcolor="
-        Purple
+        Yellow
         
         ">
         
-        <a href="https://classic.wowhead.com/item=18500&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_jewelry_ring_13.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=19925&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_jewelry_ring_44.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
         
 
         <td class="" bgcolor="
-        Blue
+        Purple
         
         ">
         
-        <a href="https://classic.wowhead.com/item=17713&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_jewelry_ring_17.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=18500&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_jewelry_ring_13.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -3848,12 +4089,12 @@
 
         
 
-        <td class="unchanted" bgcolor="
+        <td class="" bgcolor="
         Yellow
         
         ">
         
-        <a href="https://classic.wowhead.com/item=19859&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q4"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_weapon_shortblade_30.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=19859&amp;domain=classic" rel="ench=1897" data-wh-icon-added="true" class="q4"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_weapon_shortblade_30.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -3864,7 +4105,7 @@
         
         ">
         
-        <a href="https://classic.wowhead.com/item=19324&amp;domain=classic" rel="ench=1897" data-wh-icon-added="true" class="q4"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_sword_29.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=19324&amp;domain=classic" rel="ench=2564" data-wh-icon-added="true" class="q4"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_sword_29.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -4085,11 +4326,11 @@
         
 
         <td class="" bgcolor="
-        Blue
+        Yellow
         
         ">
         
-        <a href="https://classic.wowhead.com/item=15806&amp;domain=classic" rel="ench=1900" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_sword_34.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=19866&amp;domain=classic" rel="ench=1900" data-wh-icon-added="true" class="q4"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_sword_55.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -4143,7 +4384,9 @@
         
     
         
-        </tr><tr class="even"><td>Slicc</td>
+    
+        
+        </tr><tr class="odd"><td>Slicc</td>
         
         <td>10 HIT</td>
         <td>0 SP HIT</td>
@@ -4378,7 +4621,7 @@
         
     
         
-        </tr><tr class="odd"><td>Zerolimitz</td>
+        </tr><tr class="even"><td>Zerolimitz</td>
         
         <td>10 HIT</td>
         <td>0 SP HIT</td>
@@ -4632,7 +4875,7 @@
         
         ">
         
-        <a href="https://classic.wowhead.com/item=19097&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_jewelry_necklace_15.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=19856&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q4"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_jewelry_necklace_22.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -5090,7 +5333,9 @@
         
     
         
-        </tr><tr class="odd"><td>Riposte</td>
+    
+        
+        </tr><tr class="even"><td>Riposte</td>
         
         <td>6 HIT</td>
         <td>0 SP HIT</td>
@@ -5309,7 +5554,7 @@
         
     
         
-        </tr><tr class="even"><td>Saphorus</td>
+        </tr><tr class="odd"><td>Saphorus</td>
         
         <td>8 HIT</td>
         <td>0 SP HIT</td>
@@ -5540,7 +5785,7 @@
         
     
         
-        </tr><tr class="odd"><td>Tinkk</td>
+        </tr><tr class="even"><td>Tinkk</td>
         
         <td>9 HIT</td>
         <td>0 SP HIT</td>
@@ -5838,7 +6083,9 @@
         
     
         
-        <tr class="odd"><td>Skaarsdirty</td>
+    
+        
+        <tr class="even"><td>Skaarsdirty</td>
         
         <td>7 HIT</td>
         <td>0 SP HIT</td>
@@ -6073,7 +6320,7 @@
         
     
         
-        </tr><tr class="even"><td>Wyrmwyyd</td>
+        </tr><tr class="odd"><td>Wyrmwyyd</td>
         
         <td>3 HIT</td>
         <td>0 SP HIT</td>
@@ -6097,7 +6344,7 @@
         
         ">
         
-        <a href="https://classic.wowhead.com/item=19574&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q2"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_jewelry_necklace_23.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=19871&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_jewelry_necklace_21.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -6137,11 +6384,11 @@
         
 
         <td class="" bgcolor="
-        Yellow
+        Purple
         
         ">
         
-        <a href="https://classic.wowhead.com/item=13142&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_belt_33.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=18505&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_belt_02.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -6152,18 +6399,18 @@
         
         ">
         
-        <a href="https://classic.wowhead.com/item=19855&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q4"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_pants_plate_21.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=16867&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q4"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_pants_04.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
         
 
-        <td class="" bgcolor="
-        Blue
+        <td class="unchanted" bgcolor="
+        Yellow
         
         ">
         
-        <a href="https://classic.wowhead.com/item=16734&amp;domain=classic" rel="ench=929" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_boots_plate_03.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=19913&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_boots_plate_06.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -6174,7 +6421,7 @@
         
         ">
         
-        <a href="https://classic.wowhead.com/item=21996&amp;domain=classic" rel="ench=1886" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_bracer_18.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=12936&amp;domain=classic" rel="ench=1886" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_bracer_17.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -6377,7 +6624,9 @@
         
     
         
-        <tr class="odd"><td>Whitechoco</td>
+    
+        
+        <tr class="even"><td>Whitechoco</td>
         
         <td>0 HIT</td>
         <td>0 SP HIT</td>
@@ -6829,11 +7078,11 @@
         
 
         <td class="unchanted" bgcolor="
-        Blue
+        Purple
         
         ">
         
-        <a href="https://classic.wowhead.com/item=18420&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_mace_02.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=9449&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_mace_14.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -6851,11 +7100,11 @@
         
 
         <td class="" bgcolor="
-        Purple
+        Yellow
         
         ">
         
-        <a href="https://classic.wowhead.com/item=23198&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_relics_idolofferocity.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=22397&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_relics_idolofferocity.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -6894,7 +7143,9 @@
         
     
         
-        </tr><tr class="even"><td>Valkary</td>
+    
+        
+        </tr><tr class="odd"><td>Valkary</td>
         
         <td>2 HIT</td>
         <td>0 SP HIT</td>
@@ -8064,7 +8315,9 @@
         
     
         
-        </tr><tr class="even"><td>Surety</td>
+    
+        
+        </tr><tr class="odd"><td>Surety</td>
         
         <td>0 HIT</td>
         <td>0 SP HIT</td>
@@ -8121,7 +8374,7 @@
         
         ">
         
-        <a href="https://classic.wowhead.com/item=11633&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_chest_plate02.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=20032&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q4"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_chest_cloth_25.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -8378,7 +8631,7 @@
         
         ">
         
-        <a href="https://classic.wowhead.com/item=16817&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q4"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_belt_22.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=18327&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_belt_17.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -8484,22 +8737,22 @@
         
 
         <td class="" bgcolor="
-        Purple
+        Yellow
         
         ">
         
-        <a href="https://classic.wowhead.com/item=22406&amp;domain=classic" rel="ench=2505" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_staff_23.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=19965&amp;domain=classic" rel="ench=2505" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_sword_37.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
         
 
         <td class="" bgcolor="
-        Purple
+        Blue
         
         ">
         
-        <a href="https://classic.wowhead.com/item=0&amp;domain=classic" rel="ench=" class="qundefined"></a>
+        <a href="https://classic.wowhead.com/item=18523&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_misc_orb_01.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -8542,17 +8795,17 @@
         </tr><tr class="even"><td>Casu</td>
         
         <td>0 HIT</td>
-        <td>1 SP HIT</td>
+        <td>0 SP HIT</td>
         
 
         
 
         <td class="unchanted" bgcolor="
-        Yellow
+        Purple
         
         ">
         
-        <a href="https://classic.wowhead.com/item=22267&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_helmet_62.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=22720&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_helmet_61.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -8635,12 +8888,12 @@
 
         
 
-        <td class="" bgcolor="
-        Yellow
+        <td class="unchanted" bgcolor="
+        Purple
         
         ">
         
-        <a href="https://classic.wowhead.com/item=14311&amp;domain=classic" rel="ench=1884" data-wh-icon-added="true" class="q2"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_bracer_17.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=19843&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q4"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_bracer_07.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -8652,6 +8905,17 @@
         ">
         
         <a href="https://classic.wowhead.com/item=10019&amp;domain=classic" rel="ench=856" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_gauntlets_18.jpg&quot;);"></ins><del></del></span></a>
+        </td>
+
+
+        
+
+        <td class="" bgcolor="
+        Yellow
+        
+        ">
+        
+        <a href="https://classic.wowhead.com/item=18103&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_jewelry_ring_16.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -8673,7 +8937,7 @@
         
         ">
         
-        <a href="https://classic.wowhead.com/item=11991&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q2"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_jewelry_ring_01.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=19288&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q4"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_misc_ticket_tarot_bluedragon_01.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -8685,17 +8949,6 @@
         ">
         
         <a href="https://classic.wowhead.com/item=18469&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_jewelry_talisman_10.jpg&quot;);"></ins><del></del></span></a>
-        </td>
-
-
-        
-
-        <td class="" bgcolor="
-        Purple
-        
-        ">
-        
-        <a href="https://classic.wowhead.com/item=12930&amp;domain=classic" rel="ench=" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_misc_root_02.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -8717,7 +8970,7 @@
         
         ">
         
-        <a href="https://classic.wowhead.com/item=19903&amp;domain=classic" rel="ench=0" data-wh-icon-added="true" class="q4"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_weapon_shortblade_31.jpg&quot;);"></ins><del></del></span></a>
+        <a href="https://classic.wowhead.com/item=22713&amp;domain=classic" rel="ench=0" data-wh-icon-added="true" class="q3"><span class="iconsmall"><ins style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/small/inv_waepon_bow_zulgrub_d_01.jpg&quot;);"></ins><del></del></span></a>
         </td>
 
 
@@ -9228,7 +9481,9 @@
         
     
         
-        </tr><tr class="odd"><td>Serghand</td>
+    
+        
+        </tr><tr class="even"><td>Serghand</td>
         
         <td>0 HIT</td>
         <td>1 SP HIT</td>
@@ -9478,15 +9733,5 @@
 </tr></tbody></table>
 
 
-<footer class="text-center text-white fixed-bottom" style="background-color: #21081a;">
-    <!-- Grid container -->
-    <div class="container p-4"></div>
-    <!-- Grid container -->
-  
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-       <a class="text-white" href="http://172.23.88.161:5000/guildgearcheck.pyclass.v1/"></a>
-    </div>
-    <!-- Copyright -->
-  </footer>
-<div class="wowhead-tooltip wowhead-tooltip-width-restriction wowhead-tooltip-width-304.3125" data-visible="no" style="position: absolute; top: 801px; left: 1083px; width: 303.312px; visibility: hidden; display: none;"><p style="visibility: hidden; background-image: none;"><div></div></p><table class=""><tbody><tr><td><table style="white-space: nowrap; width: 100%;"><tbody><tr><td><table style="display:inline-table; vertical-align:inherit"><tbody><tr><td><!--nstart--><b class="q3">Tarnished Elven Ring</b><!--nend--></td><th><b class="q0 whtt-extra">SoM Phase 1</b></th></tr></tbody></table><!--ndstart--><!--ndend--><span class="q"><br>Item Level <!--ilvl-->61</span><!--bo--><br>Binds when picked up<!--ue--><table width="100%"><tbody><tr><td>Finger</td><th><!--scstart4:-2--><span class="q1"></span><!--scend--></th></tr></tbody></table><span><!--stat3-->+15 Agility</span><!--ebstats--><!--egstats--><!--eistats--><!--e--><!--ps--></td></tr></tbody></table><table style="width: 100%;"><tbody><tr><td>Requires Level <!--rlvl-->56<br><span class="q2">Equip: <a href="http://172.23.88.161:5000/spell=15464/increased-hit-chance-1" class="q2">Improves your chance to hit by 1%.</a></span><!--itemEffects:1--><div class="whtt-sellprice">Sell Price: <span class="moneygold">3</span> <span class="moneysilver">13</span> <span class="moneycopper">40</span></div><div class="whtt-extra whtt-droppedby">Dropped by: Mizzle the Crafty</div></td></tr></tbody></table></td><th style="background-position: right top;"></th></tr><tr><th style="background-position: left bottom;"></th><th style="background-position: right bottom;"></th></tr></tbody></table><div class="wowhead-tooltip-powered" style="display: none;"></div></div><div class="wowhead-tooltip" data-visible="no" style="position: absolute; top: -2323px; left: -2323px; width: 0px; display: none; visibility: hidden;"><table class=""><tbody><tr><td></td><th style="background-position: right top;"></th></tr><tr><th style="background-position: left bottom;"></th><th style="background-position: right bottom;"></th></tr></tbody></table></div></body></html>
+
+<div class="wowhead-tooltip wowhead-tooltip-width-restriction wowhead-tooltip-width-320" data-visible="no" style="position: absolute; top: 161px; left: 1046px; width: 320px; visibility: hidden; display: none;"><p style="visibility: hidden; background-image: none;"><div></div></p><table class=""><tbody><tr><td><table style="width: 100%;"><tbody><tr><td><table style="display:inline-table; vertical-align:inherit"><tbody><tr><td><!--nstart--><b class="q3">Don Mauricio's Band of Domination</b><!--nend--></td><th><b class="q0 whtt-extra">SoM Phase 5</b></th></tr></tbody></table><!--ndstart--><!--ndend--><span class="q"><br>Item Level <!--ilvl-->63</span><!--bo--><br>Binds when picked up<br>Unique<table width="100%"><tbody><tr><td>Finger</td><th><!--scstart4:-2--><span class="q1"></span><!--scend--></th></tr></tbody></table><span><!--stat7-->+5 Stamina</span><!--ebstats--><!--egstats--><!--eistats--><!--e--><!--ps--></td></tr></tbody></table><table style="width: 100%;"><tbody><tr><td>Requires Level <!--rlvl-->58<br><span class="q2">Equip: <a href="http://172.23.88.161:5000/spell=9416/increase-spell-dam-11" class="q2">Increases damage and healing done by magical spells and effects by up to 11.</a></span><br><span class="q2">Equip: <a href="http://172.23.88.161:5000/spell=18384/increased-critical-spell" class="q2">Improves your chance to get a critical strike with spells by 1%.</a></span><!--itemEffects:1--><div class="whtt-sellprice">Sell Price: <span class="moneygold">1</span> <span class="moneysilver">52</span> <span class="moneycopper">82</span></div><div class="whtt-extra whtt-droppedby">Dropped by: Darkmaster Gandling</div><div class="whtt-extra whtt-dropchance">Drop Chance: 13.49%</div></td></tr></tbody></table></td><th style="background-position: right top;"></th></tr><tr><th style="background-position: left bottom;"></th><th style="background-position: right bottom;"></th></tr></tbody></table><div class="wowhead-tooltip-powered" style="display: none;"></div></div><div class="wowhead-tooltip" data-visible="no" style="position: absolute; top: -2323px; left: -2323px; width: 0px; display: none; visibility: hidden;"><table class=""><tbody><tr><td></td><th style="background-position: right top;"></th></tr><tr><th style="background-position: left bottom;"></th><th style="background-position: right bottom;"></th></tr></tbody></table></div></body></html>
